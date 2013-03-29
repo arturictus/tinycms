@@ -87,21 +87,9 @@ public function menu (){
             
             }
         }
-       // do_dump($this->pages);
+       
              ?>
-            <!--   <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li class="nav-header">Sidebar</li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li class="nav-header">Sidebar</li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li> -->
+            
             </ul>
           </div><!--/.well -->
             </form>
@@ -209,18 +197,18 @@ public function footer(){
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     
-    <script src="../bootstrap/js/bootstrap-transition.js"></script>
-    <script src="../bootstrap/js/bootstrap-alert.js"></script>
-    <script src="../bootstrap/js/bootstrap-modal.js"></script>
-    <script src="../bootstrap/js/bootstrap-dropdown.js"></script>
-    <script src="../bootstrap/js/bootstrap-scrollspy.js"></script>
-    <script src="../bootstrap/js/bootstrap-tab.js"></script>
-    <script src="../bootstrap/js/bootstrap-tooltip.js"></script>
-    <script src="../bootstrap/js/bootstrap-popover.js"></script>
-    <script src="../bootstrap/js/bootstrap-button.js"></script>
-    <script src="../bootstrap/js/bootstrap-collapse.js"></script>
-    <script src="../bootstrap/js/bootstrap-carousel.js"></script>
-    <script src="../bootstrap/js/bootstrap-typeahead.js"></script>
+    <script src="./bootstrap/js/bootstrap-transition.js"></script>
+    <script src="./bootstrap/js/bootstrap-alert.js"></script>
+    <script src="./bootstrap/js/bootstrap-modal.js"></script>
+    <script src="./bootstrap/js/bootstrap-dropdown.js"></script>
+    <script src="./bootstrap/js/bootstrap-scrollspy.js"></script>
+    <script src="./bootstrap/js/bootstrap-tab.js"></script>
+    <script src="./bootstrap/js/bootstrap-tooltip.js"></script>
+    <script src="./bootstrap/js/bootstrap-popover.js"></script>
+    <script src="./bootstrap/js/bootstrap-button.js"></script>
+    <script src="./bootstrap/js/bootstrap-collapse.js"></script>
+    <script src="./bootstrap/js/bootstrap-carousel.js"></script>
+    <script src="./bootstrap/js/bootstrap-typeahead.js"></script>
 
   </body>
 </html>
