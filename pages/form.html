@@ -1,0 +1,28 @@
+<script>
+    json='[{"id":"5","params":{"access-view":true,"access-edit":true,"access-delete":true},"imagen":"3","cadencia":"1","modo":"1","compases":"1","published":"1","created_by":"550","creation_date":"2013-02-28","modification_date":"2013-02-28","_imagen_img_lick":"lick_aclkzei4iDptl2kGYc2J.png","_cadencia_cadencia":"II-V","_modo_modos":"Mayor","_compases_compases_habilitados":"1","_imagen_autor":"1","_imagen_autor_autor":"John Coltrane"},{"id":"6","params":{"access-view":true,"access-edit":true,"access-delete":true},"imagen":"3","cadencia":"1","modo":"2","compases":"1","published":"1","created_by":"550","creation_date":"2013-02-28","modification_date":"2013-02-28","_imagen_img_lick":"lick_aclkzei4iDptl2kGYc2J.png","_cadencia_cadencia":"II-V","_modo_modos":"Menor","_compases_compases_habilitados":"1","_imagen_autor":"1","_imagen_autor_autor":"John Coltrane"},{"id":"7","params":{"access-view":true,"access-edit":true,"access-delete":true},"imagen":"3","cadencia":"3","modo":"1","compases":"1","published":"1","created_by":"550","creation_date":"2013-02-28","modification_date":"2013-02-28","_imagen_img_lick":"lick_aclkzei4iDptl2kGYc2J.png","_cadencia_cadencia":"V","_modo_modos":"Mayor","_compases_compases_habilitados":"1","_imagen_autor":"1","_imagen_autor_autor":"John Coltrane"},{"id":"8","params":{"access-view":true,"access-edit":true,"access-delete":true},"imagen":"3","cadencia":"3","modo":"2","compases":"1","published":"1","created_by":"550","creation_date":"2013-02-28","modification_date":"2013-02-28","_imagen_img_lick":"lick_aclkzei4iDptl2kGYc2J.png","_cadencia_cadencia":"V","_modo_modos":"Menor","_compases_compases_habilitados":"1","_imagen_autor":"1","_imagen_autor_autor":"John Coltrane"},{"id":"3","params":{"access-view":true,"access-edit":true,"access-delete":true},"imagen":"2","cadencia":"1","modo":"1","compases":"2","published":"1","created_by":"550","creation_date":"2013-02-28","modification_date":"2013-02-28","_imagen_img_lick":"lick_LhN1gh3wvkWYg5C0FzAD.png","_cadencia_cadencia":"II-V","_modo_modos":"Mayor","_compases_compases_habilitados":"2","_imagen_autor":"1","_imagen_autor_autor":"John Coltrane"},{"id":"4","params":{"access-view":true,"access-edit":true,"access-delete":true},"imagen":"2","cadencia":"3","modo":"1","compases":"2","published":"1","created_by":"550","creation_date":"2013-02-28","modification_date":"2013-02-28","_imagen_img_lick":"lick_LhN1gh3wvkWYg5C0FzAD.png","_cadencia_cadencia":"V","_modo_modos":"Mayor","_compases_compases_habilitados":"2","_imagen_autor":"1","_imagen_autor_autor":"John Coltrane"},{"id":"1","params":{"access-view":true,"access-edit":true,"access-delete":true},"imagen":"1","cadencia":"3","modo":"1","compases":"2","published":"1","created_by":"550","creation_date":"2013-02-28","modification_date":"2013-02-28","_imagen_img_lick":"lick_XstOFcvxq8jxyPo6eY7T.png","_cadencia_cadencia":"V","_modo_modos":"Mayor","_compases_compases_habilitados":"2","_imagen_autor":"1","_imagen_autor_autor":"John Coltrane"},{"id":"2","params":{"access-view":true,"access-edit":true,"access-delete":true},"imagen":"1","cadencia":"1","modo":"1","compases":"2","published":"1","created_by":"550","creation_date":"2013-02-28","modification_date":"2013-02-28","_imagen_img_lick":"lick_XstOFcvxq8jxyPo6eY7T.png","_cadencia_cadencia":"II-V","_modo_modos":"Mayor","_compases_compases_habilitados":"2","_imagen_autor":"1","_imagen_autor_autor":"John Coltrane"},{"id":"9","params":{"access-view":true,"access-edit":true,"access-delete":true},"imagen":"4","cadencia":"1","modo":"1","compases":"2","published":"1","created_by":"550","creation_date":"2013-03-14","modification_date":"2013-03-14","_imagen_img_lick":"lick_yKbBBWPumMsEdNu0j5dX.png","_cadencia_cadencia":"II-V","_modo_modos":"Mayor","_compases_compases_habilitados":"2","_imagen_autor":"32","_imagen_autor_autor":"Arthur Altman"}]';
+var obj = jQuery.parseJSON(json);
+//alert( obj.name === "John" );
+
+//document.write(var_dump(obj));
+cade= new array();
+cade_val= new array();
+for(i=0;i<sizeof(obj);i++){
+    cade.push(obj[i]['_cadencia_cadencia']);
+    cade_val.push(obj[i]['cadencia']);
+}
+cade_unique=array_unique(cade);
+cade_val_unique=array_unique(cade_val);
+var_dump(cade_unique);
+var_dump(cade_val_unique);
+//var_dump(obj);
+$("#cadencia").append(new Option("option text", "value"));
+
+</script>
+<?php 
+echo "shit";
+?>
+<form name="II_V" action="none" method="POST">
+    <select name="cadencia" id="cadencia">
+        <option></option>
+    </select>
+</form>
