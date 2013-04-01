@@ -116,7 +116,7 @@ public function head(){
     <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
     <script src="http://code.jquery.com/jquery.js"></script>
      <script src="js/libs/angular/angular.js"></script>
-    <script src="js/phpjs/phpjs.php"></script>
+  <!--  <script src="js/phpjs/phpjs.php"></script>-->
     
    
     <style type="text/css">
